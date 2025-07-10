@@ -37,7 +37,7 @@ const FooterConten = () => {
       </div>
       <div className="flex md:justify-start justify-center md:space-y-5 space-y-2.5">
         <div className="flex flex-col gap-y-2.5 md:text-start text-center">
-          <h1 className="text-[clamp(20px,2.5vw,30px)] font-semibold mt-2.5">
+          <h1 className="text-[clamp(20px,2.5vw,30px)] font-semibold mt-2.5 capitalize">
             ready to get started?
           </h1>
           <p className="text-[clamp(12px,2.5vw,16px)]">
