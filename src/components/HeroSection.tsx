@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <div className="max-w-[1440] px-[clamp(20px,4vw,60px)] mx-auto w-full mt-[clamp(20px,2.5vw,60px)]">
       <div className=" bg-[#000000] md:flex justify-between items-center md:pt-[30px] md:px-0 px-5 pt-5 rounded-xl">
-        <div className="md:pl-[82px]">
+        <div className="md:pl-[clamp(40px,5vw,82px)]">
           <div className="flex items-center md:justify-start justify-center gap-x-[clamp(10px,2.5vw,20px)]">
             <div className="rounded-full w-[clamp(50px,5vw,80px)] h-[clamp(50px,5vw,80px)] p-2 bg-[#3C346F] flex justify-center items-center ">
               <Image
